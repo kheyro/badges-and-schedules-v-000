@@ -24,5 +24,7 @@ end
 
 def printer(attendees)
   welcome = badge_maker(attendees)
-  welcome.each { |welcome_msg| puts "#{welcome_msg}" }
+  welcome.each do |welcome_msg|
+    puts "#{welcome_msg}"
+  end
 end
