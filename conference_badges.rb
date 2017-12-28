@@ -21,3 +21,6 @@ def assign_rooms(attendees)
 
   room_assignments
 end
+
+def conference_badges
+end
