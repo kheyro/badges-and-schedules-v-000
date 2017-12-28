@@ -24,5 +24,9 @@ end
 
 def printer(attendees)
 
-  attendees.each { |attendee| puts badge_maker(attendee)} 
+  attendees.each { |attendee| puts badge_maker(attendee)}
+
+  assignment = assign_rooms(attendees)
+  assignment.each { |assign| puts "#{assign}" }
+
 end
