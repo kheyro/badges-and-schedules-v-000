@@ -23,8 +23,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  badge_maker(attendees)
-  welcome.each do |welcome_msg|
-    puts "#{welcome_msg}"
-  end
+  
+  attendees.each { |message| puts badge_maker(attendees)} 
 end
